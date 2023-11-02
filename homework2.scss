@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    width: 100vw;
+    height: 20vh;
+    background-color: cadetblue;
+}
+
+.first{
+    width: 100vw;
+    height: 55vh;
+    background-color: lightblue;
+    margin-bottom: 50px;
+}
+
+.middle{
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+
+    .left{
+        width: 20vw;
+        height: 200vh;
+        background-color: cadetblue;
+    }
+
+    .right{
+        margin-left: 100px;
+        width: 70vw;
+        height: 90vh;
+
+        .text{
+            width: 70vw;
+            height: 10vh;
+            margin: 0;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 100px;
+
+            p{
+                margin-left: 40px;
+                font-size: 16pt;
+            }
+        }
+
+        .boxarea{
+            width: 70vw;
+            height: 90vh;
+
+            .boxrow1{
+                width: 70vw;
+                height: 30vh;
+                display: flex;
+                justify-content: space-between;
+                position: relative;
+                margin-bottom: 150px;
+                .box1{
+                    width: 250px;
+                    height: 250px;
+                    background-color: cadetblue;
+
+                    span{
+                        font-size: 20pt;
+                        position: absolute;
+                        top: 250px;
+                        left: 40px;
+                    }
+                }
+                .box2{
+
+                    width: 250px;
+                    height: 250px;
+                    background-color: cadetblue;
+
+                    span{
+                        font-size: 20pt;
+                        position: absolute;
+                        top: 250px;
+                        left: 450px;
+                    }
+                }
+                .box3{
+                    width: 250px;
+                    height: 250px;
+                    background-color: cadetblue;
+
+                    span{
+                        font-size: 20pt;
+                        position: absolute;
+                        top: 250px;
+                        left: 860px;
+                    }
+                }
+            }
+
+            .boxrow2{
+                width: 70vw;
+                height: 30vh;
+                display: flex;
+                justify-content: space-between;
+                position: relative;
+                margin-bottom: 150px;
+                .box4{
+                    width: 250px;
+                    height: 250px;
+                    background-color: cadetblue;
+
+                    span{
+                        font-size: 20pt;
+                        position: absolute;
+                        top: 250px;
+                        left: 40px;
+                    }
+                }
+                .box5{
+
+                    width: 250px;
+                    height: 250px;
+                    background-color: cadetblue;
+
+                    span{
+                        font-size: 20pt;
+                        position: absolute;
+                        top: 250px;
+                        left: 450px;
+                    }
+                }
+                .box6{
+                    width: 250px;
+                    height: 250px;
+                    background-color: cadetblue;
+
+                    span{
+                        font-size: 20pt;
+                        position: absolute;
+                        top: 250px;
+                        left: 860px;
+                    }
+                }
+            }
+            .boxrow3{
+                width: 70vw;
+                height: 30vh;
+                display: flex;
+                justify-content: space-between;
+                position: relative;
+                .box7{
+                    width: 250px;
+                    height: 250px;
+                    background-color: cadetblue;
+
+                    span{
+                        font-size: 20pt;
+                        position: absolute;
+                        top: 250px;
+                        left: 40px;
+                    }
+                }
+                .box8{
+
+                    width: 250px;
+                    height: 250px;
+                    background-color: cadetblue;
+
+                    span{
+                        font-size: 20pt;
+                        position: absolute;
+                        top: 250px;
+                        left: 450px;
+                    }
+                }
+                .box9{
+                    width: 250px;
+                    height: 250px;
+                    background-color: cadetblue;
+
+                    span{
+                        font-size: 20pt;
+                        position: absolute;
+                        top: 250px;
+                        left: 860px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: cadetblue;
+    margin-top: 800px;
+}

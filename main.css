@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: cornsilk;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: aquamarine;
+  transition: 0.3s;
+}
+.circle:hover {
+  background-color: burlywood;
+  scale: 0.95;
+}
+.circle:active {
+  background-color: cadetblue;
+  scale: 1.5;
+}/*# sourceMappingURL=main.css.map */
